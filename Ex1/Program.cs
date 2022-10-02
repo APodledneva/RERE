@@ -1,12 +1,9 @@
 ﻿Console.WriteLine ("Введите 2 числа: ");
-int a = 0;
-int b = 0;
-
 string numberone = Console.ReadLine (); 
 string numbertwo = Console.ReadLine (); 
 
-a = int.Parse(numberone);
-b = int.Parse(numbertwo);
+int a = int.Parse(numberone);
+int b = int.Parse(numbertwo);
 
 if (a > b)
     Console.Write ($"max = {a}, min = {b} ");
