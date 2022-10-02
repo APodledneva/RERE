@@ -9,10 +9,6 @@ a = int.Parse(numberone);
 b = int.Parse(numbertwo);
 
 if (a > b)
-{
     Console.Write ($"max = {a}, min = {b} ");
-}
 else 
-{
     Console.Write ($"max = {b}, min = {a}");
-}
